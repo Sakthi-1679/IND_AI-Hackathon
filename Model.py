@@ -1,17 +1,3 @@
-Enable desktop notifications for Gmail.
-   OK  No, thanks
-2 of 2,653
-vels
-Inbox
-
-Team Vss
-Attachments
-14:04 (8 hours ago)
-to me
-
-
-One attachment
-  • Scanned by Gmail
 import re
 import numpy as np
 import pandas as pd
@@ -191,7 +177,7 @@ class CrimeClassifierMultiOutputModel:
 
 # Load your dataset and specify the file path
 # Replace 'your_dataset.csv' with the path to your actual file
-data = pd.read_csv("C:/Users/511522104045/Downloads/train_sorted.csv")
+data = pd.read_csv("train.csv")
 
 # Initialize and prepare the model
 crime_model = CrimeClassifierMultiOutputModel()
